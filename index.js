@@ -1,1 +1,1 @@
-console.log("Hello");
+console.log("This is a example of the JAVASCRIPT Code");

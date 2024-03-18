@@ -2,3 +2,13 @@ body{
 	background-color: yellow;
 	font-size: 2em;
 }
+#header{
+	height: 100px;
+	width: 100%;
+	border: 5px solid black;
+}
+
+#header div{
+	display: inline;
+	padding:50px;
+}
