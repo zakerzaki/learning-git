@@ -12,3 +12,9 @@ body{
 	display: inline;
 	padding:50px;
 }
+
+#main{
+	height:600px;
+	width:90%;
+	background-color:gray;
+}
