@@ -1,20 +1,31 @@
 body{
-	background-color: yellow;
+	background-color: lightblue;
 	font-size: 2em;
 }
 #header{
 	height: 100px;
-	width: 100%;
-	border: 5px solid black;
+	width: 90%;
+	margin: 0px auto;
 }
 
 #header div{
-	display: inline;
-	padding:50px;
+	display: inline-block;
+	text-align: center;
+	width: 32.4%;
 }
-
+#content{
+	width: 90%;
+	margin: 0px auto;
+}
+#side {
+	display: inline-block;
+	height: 600px;
+	width: 20%;
+	background-color: green;
+}
 #main{
+	display: inline-block;
 	height:600px;
-	width:90%;
+	width:78%;
 	background-color:gray;
 }
