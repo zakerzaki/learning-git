@@ -1,3 +1,7 @@
-var button = document.getElementsByClassName("button");
-button[0].addEventListener("click", function(){ alert("Hello World!"); });
-console.log(button);
+function add(a,b){
+	return a+b;
+}
+
+sidbar = document.getElementById('side');
+
+sidbar.addEventListener('click',alert("You clicked on sidebar"));
