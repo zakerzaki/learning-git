@@ -1,7 +1,17 @@
-function add(a,b){
-	return a+b;
+function add(a, b) {
+    console.log(a + b);
 }
 
-sidbar = document.getElementById('side');
 
-sidbar.addEventListener('click',alert("You clicked on sidebar"));
+to_search = document.getElementById('search_input');
+
+btn_search = document.getElementById('search_btn');
+
+btn_search.onclick = function(){
+	sidebar.innerHTML = to_search.value;
+}
+
+sidebar = document.getElementById('side');
+sidebar.onclick = function() {
+    add(5, 55);
+};
